@@ -1,0 +1,1 @@
+main(i){for(;i<20;i++){int n=i,o=i,c=2;printf("1 %d",n);while(n>1){o*=--n;o/=c++;printf(" %d",o);}puts("");}}
