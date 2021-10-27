@@ -1,0 +1,1 @@
+main(){__uint128_t n=7830457,x=2,r=28433,m=pow(10,10);while(n){if(n&1)r*=x,r%=m;x*=x,x%=m,n>>=1;}printf("%lu",r+1);}
