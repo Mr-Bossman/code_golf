@@ -1,0 +1,1 @@
+main(){char*c="main(){char*c=%c%s%1$c;printf(c,34,c);}";printf(c,34,c);}
