@@ -1,0 +1,1 @@
+main(){int p=1,c,b=10000;while(b--){p+=2;for(c=2;c<p/2;c++)if(!(p%c))p+=2,c=2;}printf("%u\n",p);}
