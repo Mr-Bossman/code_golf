@@ -5,5 +5,5 @@ f=`find *.c`
 gcc $f -w -o "${f%.*}"
 echo character count:
 wc -c $f
-read -p Start?
-./"${f%.*}"
+read -p "Start?" input
+./"${f%.*}" $input

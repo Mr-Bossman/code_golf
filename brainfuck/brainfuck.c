@@ -1,0 +1,1 @@
+char*q,j[40000],*p=j,c;w(n){for(;*q-93;q++){c=*q,n?c-62?c-60?c-43?c-45?c-46?c-44?:(*p=getchar()):putchar(*p):--*p:++*p:--p:++p:0;if(c==91){int*r=*p&&n?q-1:0;q++;w(r);q=r?r:q;}}}main(int,int**v){q=*v;w(1);}
