@@ -1,0 +1,1 @@
+f(b,p,c){p=1;while(b--){p+=2;for(c=2;c<p/2;c++)if(!(p%c))p+=2,c=2;}return p-1?p:2;}p(p,c,k){k=1;for(c=2;c<p/2;c++)if(!(p%c))k=0;return k;}main(){int t,b,i,l,m,k,n=0;m=k=1000000;while(k/=2)n++;k=m/n;for(l=n=b=0;b<k;t=0,b++)for(i=b;i<k;t+=f(i),i++){if(t>m)break;if(i-b>n&p(t))l=t,n=i-b;}printf("%u\n",l);}
